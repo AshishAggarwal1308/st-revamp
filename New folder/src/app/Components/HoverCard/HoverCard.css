@@ -1,0 +1,40 @@
+.hover-card-container {
+  margin: 16px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 16px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.card-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}

@@ -1,0 +1,21 @@
+.offering-section {
+    text-align: center;
+    background: #01233C;
+  }
+  
+  .app-heading {
+    text-align: left;
+    font-size: 140px;
+    font-weight: 400;
+    color: #c7c5c537;
+    padding-left: 90px;
+    font-style: 'alfa-slab-one';
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+  

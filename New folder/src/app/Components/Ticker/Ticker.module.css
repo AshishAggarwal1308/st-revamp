@@ -1,0 +1,30 @@
+.ticker-container {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 40px 0px;
+}
+
+.ticker-content {
+  display: inline-block;
+  animation: ticker 50s linear infinite;
+  
+}
+
+@keyframes ticker {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-item {
+  display: inline-flex;
+  padding: 0 12px;
+
+}
+
+.ticker-image {/* Adjust based on your design */
+  width: 2000px;
+}

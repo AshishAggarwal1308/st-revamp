@@ -1,0 +1,17 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    /* background-image: url("https://res.cloudinary.com/dixi57x2b/image/upload/v1720445273/elchxjrph3zkgo1waqie.png");
+    background-size: cover;
+    background-position: center center; */
+}
+.btn:hover{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url("https://res.cloudinary.com/dixi57x2b/image/upload/v1720445273/elchxjrph3zkgo1waqie.png");
+    background-size: cover;
+    background-position: center center;
+    transition: 1s ease-in;
+}

@@ -1,0 +1,102 @@
+.slider {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.2863270308123249) 0%, rgba(255,255,255,0.28352591036414565) 100%);
+    border-radius: 16px;
+    padding: 60px 25px;
+    gap: 40px;
+    height: 300px;
+    width: fit-content;
+    color: white;
+    margin: 0px 20px; /* Add spacing between cards */
+  }
+  
+  .cardhead{
+    font-size: 12px;
+    width: fit-content;
+    font-family: 'alfa slab one';
+    color: #ffbf00;
+  }
+  .heading{
+    font-size: 32px;
+    width: fit-content;
+    font-family: 'alfa slab one';
+    color: #ffffff;
+  }
+
+  .description {
+    max-width: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 17.5px;
+    text-align: justify;
+  }
+  
+  .image {
+    width: 35%;
+    border-radius: 8px;
+  }
+  
+  .content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+  }
+  
+  /* .button {
+    border: none;
+    padding: 14px 0px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  } */
+  
+  .button {
+    border: none;
+    padding: 14px 0px;
+
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    background-image: url("https://res.cloudinary.com/dixi57x2b/image/upload/v1720445273/elchxjrph3zkgo1waqie.png");
+    background-size: contain;
+    background-position: center center; 
+    width: 130px;
+    background-repeat: no-repeat;
+  }
+  
+  .nextArrow {
+    position: absolute;
+    top: 330px; /* Position arrows below the cards */
+    right: 46%;
+    transform: translateX(50%);
+    font-size: 2em;
+    color: #ffbf00;
+    cursor: pointer;
+  }
+  
+  .prevArrow {
+    position: absolute;
+    top: 330px; /* Position arrows below the cards */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+    color: #ffbf00;
+    cursor: pointer;
+  }
+  
