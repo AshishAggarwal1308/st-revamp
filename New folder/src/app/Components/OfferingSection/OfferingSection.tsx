@@ -22,22 +22,22 @@ const OfferingSection: React.FC = () => {
 
   const cardsData: CardData[] = [
     {
-      image: "LiveMCThumb.png",
+      image: "https://st-staticimg.s3.ap-south-1.amazonaws.com/assets/LiveMCThumb.png",
       title: "LIVE MASTERCLASS",
       description: "Dive into the world of 'Derivatives' with our course designed for everyone",
-      gifSrc: "LiveMC.gif",
+      gifSrc: "https://st-staticimg.s3.ap-south-1.amazonaws.com/assets/LiveMC.gif",
     },
     {
-      image: "VirtualTradingThumb.png",
+      image: "https://st-staticimg.s3.ap-south-1.amazonaws.com/assets/VirtualTradingThumb.png",
       title: "VIRTUAL TRADING",
       description: "Dive into the world of 'Derivatives' with our course designed for everyone",
-      gifSrc: "VirtualTrading.gif",
+      gifSrc: "https://st-staticimg.s3.ap-south-1.amazonaws.com/assets/VirtualTrading.gif",
     },
     {
-      image: "BootcampThumb.png",
+      image: "https://st-staticimg.s3.ap-south-1.amazonaws.com/assets/BootcampThumb.png",
       title: "7 DAYS BOOTCAMPS",
       description: "Dive into the world of 'Derivatives' with our course designed for everyone",
-      gifSrc: "Bootcamp.gif",
+      gifSrc: "https://st-staticimg.s3.ap-south-1.amazonaws.com/assets/Bootcamp.gif",
     },
   ];
 
